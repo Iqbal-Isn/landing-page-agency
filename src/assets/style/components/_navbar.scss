@@ -1,0 +1,27 @@
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-active {
+  background-color: #2f6b4f !important ;
+}
+nav {
+  display: flex;
+  box-shadow: none !important;
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 20px;
+      margin: 0;
+      font-weight: 400;
+      margin-left: 10px;
+    }
+  }
+  .nav-menu {
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 10px 0 10px;
+    color: #fff;
+  }
+}

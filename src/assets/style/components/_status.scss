@@ -1,0 +1,29 @@
+.status {
+  position: relative;
+  z-index: 3;
+  margin-bottom: 100px;
+  .stat-list {
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    padding: 0;
+    h4 {
+      font-size: 32px;
+      font-weight: 600;
+      color: #2a2c3d;
+    }
+    p {
+      margin-top: 8px;
+      font-size: 18px;
+      color: #2a2c3d;
+    }
+  }
+  img {
+    width: 100%;
+    margin-top: -14rem;
+    object-fit: cover;
+  }
+}

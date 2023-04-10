@@ -1,0 +1,29 @@
+.hero {
+  background-color: #2f6b4f;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  text-align: center;
+  overflow: hidden !important;
+  position: relative;
+  z-index: 2;
+  img {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: auto;
+  }
+  .hero-title {
+    color: #fff;
+    font-size: 64px;
+    width: 70%;
+    margin: auto;
+  }
+  .hero-text {
+    color: #d9d9d9;
+    font-size: 18px;
+    width: 60%;
+    margin: auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
+  }
+}

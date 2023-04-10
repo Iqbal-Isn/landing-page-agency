@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif !important;
+  margin: 0;
+}
+@import "./components/navbar";
+@import "./components/hero";
+@import "./components/button";
+@import "./components/status";
+@import "./components/service";
