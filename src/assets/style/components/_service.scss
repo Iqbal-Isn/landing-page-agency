@@ -1,4 +1,24 @@
 .service {
   background-color: #f9f9f9;
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  P {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.71;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .card-section {
+    justify-content: center;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

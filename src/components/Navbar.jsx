@@ -34,7 +34,6 @@ function Navbar(props) {
   };
 
   const changeBackground = () => {
-    console.log(scrollY);
     if (scrollY > 0) {
       setNavbarBg(true);
     } else {

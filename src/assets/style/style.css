@@ -102,6 +102,7 @@ nav .nav-menu {
   margin-top: 8px;
   font-size: 18px;
   color: #2a2c3d;
+  opacity: 0.71;
 }
 .status img {
   width: 100%;
@@ -113,4 +114,169 @@ nav .nav-menu {
 .service {
   background-color: #f9f9f9;
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.service P {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.71;
+}
+.service h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.service .card-section {
+  justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-service {
+  background-color: #fff;
+  box-shadow: 2px 6px 24px 0px rgba(42, 44, 61, 0.1607843137);
+  width: 290px;
+  text-align: center;
+  padding: 32px 24px 32px 24px;
+}
+.card-service .card-title {
+  font-size: 24px;
+  color: #2a2c3d;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.card-service .card-desc {
+  font-size: 18px;
+  color: #2a2c3d;
+  font-weight: 400;
+  opacity: 0.71;
+  margin-top: 1rem;
+}
+
+.card-project {
+  width: 360px;
+  color: #2a2c3d;
+  margin-top: 40px;
+}
+.card-project img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-project .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 16px 0 8px 0;
+}
+.card-project .card-desc {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-review {
+  padding: 24px;
+  width: 365px;
+  color: #2a2c3d;
+  border: 2px solid #2a2c3d;
+}
+.card-review .card-title-review {
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-review .user-review {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 20px 0;
+}
+.card-review .user {
+  display: flex;
+}
+.card-review .user img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-review .user .user-name {
+  margin-left: 15px;
+}
+.card-review .user .user-name h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-review .user .user-name p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.project {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.project P {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.71;
+}
+.project h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.project .card-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.review {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.review P {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.71;
+}
+.review h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.review .card-section {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-bottom: 130px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #2f6b4f;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 60px 0 60px 0;
+}
+.contact img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact .contact-content {
+  width: 60%;
+  margin: auto;
+}
+.contact .contact-content h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.contact .contact-content p {
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.71;
+  margin: 16px 0 32px 0;
 }/*# sourceMappingURL=style.css.map */
