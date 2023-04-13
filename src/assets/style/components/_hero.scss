@@ -27,3 +27,17 @@
     margin-bottom: 50px !important;
   }
 }
+
+@media (max-width: 520px) {
+  .hero {
+    padding-top: 80px;
+  }
+  .hero-title {
+    font-size: 32px !important;
+    width: 95% !important;
+  }
+  .hero-text {
+    width: 95% !important;
+    font-size: 14px !important;
+  }
+}

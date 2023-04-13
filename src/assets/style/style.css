@@ -64,6 +64,19 @@ nav .nav-menu {
   margin-bottom: 50px !important;
 }
 
+@media (max-width: 520px) {
+  .hero {
+    padding-top: 80px;
+  }
+  .hero-title {
+    font-size: 32px !important;
+    width: 95% !important;
+  }
+  .hero-text {
+    width: 95% !important;
+    font-size: 14px !important;
+  }
+}
 .btn {
   background-color: #fff;
   color: #2a2c3d;
@@ -111,6 +124,22 @@ nav .nav-menu {
      object-fit: cover;
 }
 
+@media (max-width: 695px) {
+  .stat-list h4 {
+    font-size: 24px !important;
+  }
+  .stat-list p {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 385px) {
+  .stat-list h4 {
+    font-size: 20px !important;
+  }
+  .stat-list p {
+    font-size: 12px !important;
+  }
+}
 .service {
   background-color: #f9f9f9;
   width: 100%;
@@ -162,7 +191,12 @@ nav .nav-menu {
   color: #2a2c3d;
   margin-top: 40px;
 }
-.card-project img {
+.card-project .img-project {
+  position: relative;
+}
+.card-project .img-project img {
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -260,6 +294,7 @@ nav .nav-menu {
   text-align: center;
   position: relative;
   padding: 60px 0 60px 0;
+  overflow: hidden !important;
 }
 .contact img {
   position: absolute;
@@ -279,4 +314,93 @@ nav .nav-menu {
   font-size: 18px;
   opacity: 0.71;
   margin: 16px 0 32px 0;
+}
+
+@media (max-width: 970px) {
+  .contact-content {
+    width: 90% !important;
+  }
+  .contact-content h2 {
+    font-size: 36px !important;
+  }
+  .contact-content p {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 521px) {
+  .contact-content {
+    width: 100% !important;
+  }
+  .contact-content h2 {
+    font-size: 28px !important;
+  }
+  .contact-content p {
+    font-size: 14px !important;
+  }
+}
+.footer {
+  color: #2a2c3d;
+  padding-bottom: 100px;
+}
+.footer .footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .footer-wrapper .left-footer {
+  width: 47%;
+  margin-bottom: 3rem;
+}
+.footer .footer-wrapper .left-footer .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer .footer-wrapper .left-footer .title h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.footer .footer-wrapper .left-footer p {
+  margin-top: 10px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.71;
+}
+.footer .footer-wrapper .left-footer .social-media {
+  display: flex;
+  gap: 24px;
+}
+.footer .footer-wrapper .right-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.footer .footer-wrapper .right-footer h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.footer .footer-wrapper .right-footer ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer .footer-wrapper .right-footer li {
+  list-style: none;
+  opacity: 0.71;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media (max-width: 970px) {
+  .left-footer {
+    width: 100% !important;
+  }
+}
+@media (max-width: 521px) {
+  .right-footer {
+    gap: 60px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

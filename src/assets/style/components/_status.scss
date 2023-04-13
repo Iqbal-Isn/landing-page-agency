@@ -28,3 +28,23 @@
     object-fit: cover;
   }
 }
+@media (max-width: 695px) {
+  .stat-list {
+    h4 {
+      font-size: 24px !important;
+    }
+    p {
+      font-size: 14px !important;
+    }
+  }
+}
+@media (max-width: 385px) {
+  .stat-list {
+    h4 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 12px !important;
+    }
+  }
+}
