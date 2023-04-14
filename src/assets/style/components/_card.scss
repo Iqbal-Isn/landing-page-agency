@@ -21,6 +21,7 @@ $black: #2a2c3d;
   }
 }
 .card-project {
+  margin: auto;
   width: 360px;
   color: $black;
   margin-top: 40px;
@@ -44,9 +45,10 @@ $black: #2a2c3d;
 }
 .card-review {
   padding: 24px;
-  width: 365px;
+  width: 32%;
   color: $black;
   border: 2px solid $black;
+  margin-bottom: 20px;
   .card-title-review {
     font-size: 24px;
     font-weight: 600;
@@ -74,5 +76,36 @@ $black: #2a2c3d;
         font-weight: 400;
       }
     }
+  }
+}
+
+@media (max-width: 1143px) {
+  .card-review {
+    .card-title-review {
+      font-size: 20px;
+    }
+    .user-review {
+      font-size: 16px;
+    }
+    .user {
+      .user-name {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .card-project {
+    .card-title {
+      font-size: 20px;
+    }
+    .card-desc {
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .card-review {
+    width: 100%;
   }
 }

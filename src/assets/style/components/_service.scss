@@ -22,3 +22,13 @@
     padding-right: 20px;
   }
 }
+@media (max-width: 768px) {
+  .service {
+    h2 {
+      font-size: 24px !important;
+    }
+    P {
+      font-size: 14px;
+    }
+  }
+}

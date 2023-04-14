@@ -17,3 +17,16 @@
     justify-content: space-between;
   }
 }
+@media (max-width: 768px) {
+  .review {
+    h2 {
+      font-size: 24px !important;
+    }
+    p {
+      font-size: 14px;
+    }
+    .card-section {
+      flex-direction: column;
+    }
+  }
+}

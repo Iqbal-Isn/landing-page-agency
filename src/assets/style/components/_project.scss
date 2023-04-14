@@ -14,5 +14,16 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .project {
+    h2 {
+      font-size: 24px !important;
+    }
+    P {
+      font-size: 14px;
+    }
   }
 }

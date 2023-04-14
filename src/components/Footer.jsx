@@ -42,7 +42,7 @@ const Footer = () => {
               <h3>Pages</h3>
               <ul>
                 {pages.map((data) => {
-                  return <li>{data}</li>;
+                  return <li key={data}>{data}</li>;
                 })}
               </ul>
             </div>
@@ -50,7 +50,7 @@ const Footer = () => {
               <h3>Explore</h3>
               <ul>
                 {explore.map((data) => {
-                  return <li>{data}</li>;
+                  return <li key={data}>{data}</li>;
                 })}
               </ul>
             </div>
@@ -58,7 +58,7 @@ const Footer = () => {
               <h3>Company</h3>
               <ul>
                 {company.map((data) => {
-                  return <li>{data}</li>;
+                  return <li key={data}>{data}</li>;
                 })}
               </ul>
             </div>
