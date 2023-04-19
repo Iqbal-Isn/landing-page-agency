@@ -10,7 +10,7 @@ import pen from "../assets/img/icon/PenNib.svg";
 const Service = () => {
   return (
     <>
-      <div className="service">
+      <div className="service" id="Our Service">
         <Container>
           <p className="title-secondary">Our Service</p>
           <h2 className="title-primary">We Provide What You Need</h2>

@@ -31,7 +31,7 @@
 @media (max-width: 580px) {
   .hero {
     padding-top: 90px;
-    padding-bottom: 220px;
+    padding-bottom: 260px;
   }
   .hero-title {
     font-size: 32px !important;
@@ -40,5 +40,10 @@
   .hero-text {
     width: 95% !important;
     font-size: 14px !important;
+  }
+}
+@media (max-width: 420px) {
+  .hero {
+    padding-bottom: 200px;
   }
 }

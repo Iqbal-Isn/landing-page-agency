@@ -3,6 +3,9 @@
   font-family: "Open Sans", sans-serif !important;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 @import "./components/navbar";
 @import "./components/hero";
 @import "./components/button";

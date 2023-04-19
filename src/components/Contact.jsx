@@ -6,7 +6,7 @@ import Button from "./Button";
 const Contact = () => {
   return (
     <>
-      <div className="contact">
+      <div className="contact" id="Contact Us">
         <Container>
           <img src={pattern} alt="" />
           <div className="contact-content">

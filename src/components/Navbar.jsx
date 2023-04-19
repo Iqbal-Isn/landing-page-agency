@@ -48,16 +48,21 @@ function Navbar(props) {
   }, [scrollY]);
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Bubble Bash
-      </Typography>
+    <Box onClick={handleDrawerToggle} className="nav-mobile">
+      <div className="logo-nav-mobile">
+        <img src={Logo} alt="" />
+        <Typography variant="h6" sx={{ my: 2 }}>
+          Bubble Bash
+        </Typography>
+      </div>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+              <a href={`#${item}`}>
+                <ListItemText primary={item} />
+              </a>
             </ListItemButton>
           </ListItem>
         ))}
@@ -95,7 +100,7 @@ function Navbar(props) {
           <Box sx={{ display: { xs: "none", md: "block" } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: "#fff" }} className="nav-menu">
-                {item}
+                <a href={`#${item}`}>{item}</a>
               </Button>
             ))}
           </Box>

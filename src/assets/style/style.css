@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: transparent !important;
 }
@@ -31,7 +35,35 @@ nav .nav-menu {
   font-size: 18px;
   font-weight: 400;
   margin: 0 10px 0 10px;
-  color: #fff;
+}
+nav .nav-menu a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.MuiDrawer-paperAnchorLeft {
+  background-color: #2f6b4f !important;
+  color: #fff !important;
+}
+.MuiDrawer-paperAnchorLeft .nav-mobile .logo-nav-mobile {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  gap: 2px;
+}
+.MuiDrawer-paperAnchorLeft .nav-mobile .logo-nav-mobile img {
+  width: 35px;
+  height: 35px;
+}
+.MuiDrawer-paperAnchorLeft .nav-mobile h6 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.MuiDrawer-paperAnchorLeft .nav-mobile a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff !important;
+  text-decoration: none;
 }
 
 .hero {
@@ -67,7 +99,7 @@ nav .nav-menu {
 @media (max-width: 580px) {
   .hero {
     padding-top: 90px;
-    padding-bottom: 220px;
+    padding-bottom: 260px;
   }
   .hero-title {
     font-size: 32px !important;
@@ -76,6 +108,11 @@ nav .nav-menu {
   .hero-text {
     width: 95% !important;
     font-size: 14px !important;
+  }
+}
+@media (max-width: 420px) {
+  .hero {
+    padding-bottom: 200px;
   }
 }
 .btn {
@@ -93,6 +130,12 @@ nav .nav-menu {
   gap: 5px;
 }
 
+@media (max-width: 480px) {
+  .btn {
+    font-size: 16px;
+    width: 180px;
+  }
+}
 .status {
   position: relative;
   z-index: 3;

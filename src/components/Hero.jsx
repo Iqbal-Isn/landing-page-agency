@@ -5,7 +5,7 @@ import Pattern from "../assets/img/pattern-h.png";
 const Hero = () => {
   return (
     <>
-      <div className="hero">
+      <div className="hero" id="Home">
         <img src={Pattern} alt={Pattern} />
         <div className="hero-content">
           <h1 className="hero-title">

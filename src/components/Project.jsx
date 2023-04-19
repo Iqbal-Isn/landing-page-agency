@@ -8,7 +8,7 @@ import project3 from "../assets/img/project-3.png";
 const Project = () => {
   return (
     <>
-      <div className="project">
+      <div className="project" id="Portfolio">
         <Container>
           <p className="title-secondary">Our Portofolio’s</p>
           <h2 className="title-primary">Recent Projects</h2>

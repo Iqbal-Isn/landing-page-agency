@@ -22,6 +22,36 @@ nav {
     font-size: 18px;
     font-weight: 400;
     margin: 0 10px 0 10px;
-    color: #fff;
+    a {
+      color: #fff !important;
+      text-decoration: none;
+    }
+  }
+}
+.MuiDrawer-paperAnchorLeft {
+  background-color: #2f6b4f !important;
+  color: #fff !important;
+
+  .nav-mobile {
+    .logo-nav-mobile {
+      display: flex;
+      margin-left: 10px;
+      align-items: center;
+      gap: 2px;
+      img {
+        width: 35px;
+        height: 35px;
+      }
+    }
+    h6 {
+      font-weight: 500;
+      font-size: 18px;
+    }
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      color: #fff !important;
+      text-decoration: none;
+    }
   }
 }

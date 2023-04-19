@@ -8,7 +8,7 @@ import user3 from "../assets/img/user3.png";
 const Review = () => {
   return (
     <>
-      <div className="review">
+      <div className="review" id="Testimonial">
         <Container>
           <p className="title-secondary">Client Reviews</p>
           <h2 className="title-primary">What Our Happy Client Say About Us</h2>
